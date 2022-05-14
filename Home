@@ -1,0 +1,53 @@
+/* Código 1
+Arrays & For
+*/
+var camisas=['Branco','Azul','Verde','Preto','Cinza'];
+
+for(let i = 0; i<camisas.length; i++){
+    document.write("Posição " + i +" : " + camisas[i] + '<br>');
+}
+
+document.write('<hr>');
+
+//camisas [camisas.length] = prompt("Digite uma cor para a posição 0");
+
+camisas [0] = prompt("Digite uma cor para a posição 0");
+camisas [1] = prompt("Digite uma cor para a posição 1");
+camisas [2] = prompt("Digite uma cor para a posição 2");
+camisas [3] = prompt("Digite uma cor para a posição 3");
+camisas [4] = prompt("Digite uma cor para a posição 4");
+camisas.push(prompt("Digite a cor da nova camisa"));
+
+for(let i = 0; i<camisas.length; i++){
+document.write("Posição " + i +" : " + camisas[i] + '<br>');
+}
+
+document.write('<hr>')
+
+document.write('Quantidade de camisas : ' + camisas.length);
+
+/* Script feito por Peagah
+Aula de Alessandro
+Dia 13/05
+*/
+
+----------------------------------------------------------------------- ================ ------------------------------------------------------------------------------
+
+/* Código 2
+For & Let
+*/ 
+document.write('par');
+document.write('<br>')
+
+for(let i = 0; i<100; i+=2){
+    document.write( i + ',');
+    }
+
+document.write('<hr>');
+
+document.write('Impar');
+document.write('<br>')
+
+for(let i = 1; i<100; i+=2){
+    document.write( i + ',');
+}
